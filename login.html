@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Skill-Based Charity Platform</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('C:\Users\akshi\Downloads\main.jpg'); /* Replace 'background.jpg' with the path to your background image */
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            width:70%;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 400px;
+            padding: 40px;
+            background: linear-gradient(to bottom right, #007bff, #00bfff);
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            color: #fff;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #fff;
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            background-color: rgba(255, 255, 255, 0.3);
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 12px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #004080;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .signup-link {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .signup-link a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 9px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Skill-Based Charity Platform</h1>
+    </header>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <input type="submit" value="Login">
+        </form>
+        <div class="signup-link">
+            <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+        </div>
+    </div>
+<footer>
+        <p>&copy; 2024 Skill-Based Charity Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
